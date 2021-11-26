@@ -1,0 +1,131 @@
+
+:root{
+    /* colors */
+    --Very-light-pink: #C7C7C7;
+    --White: #FFFFFF;
+    --Text-input-field: #F7F7F7;
+    --Black: black;
+    --Hospital-green: #ACD9B2;
+    --Dark: #232830;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+
+.main-conteiner{
+    min-width: 500px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    justify-content:center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    
+}
+
+.main-conteiner img{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 200px;
+    justify-self: center;
+    
+    
+
+}
+
+.Email-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.Email-conteiner label{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.Email-conteiner input[type='Email']{
+    background-color: var(--Text-input-field);
+    border-radius: 10px;
+    border-style: none;
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+.Password-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Password-conteiner label{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.Password-conteiner input[type='Password']{
+    background-color:var(--Text-input-field);
+    border-radius: 10px;
+    border-style: none;
+    width: 300px;
+    padding: 10px;
+}    
+
+
+.Log-in-button{
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #ACD9B2;
+  border-radius: 10px;
+  border-style: none;
+  width: 100%;
+  padding: 15px; 
+
+} 
+
+.Log-in-button a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--White);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.Forgot {
+    text-decoration: none;
+    text-align: center;
+    color: var(--Hospital-green);
+}
+
+.Sign-up-button {
+    width: 100%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    background-color: var(--White);
+    border-radius: 10px;
+    border-color: var(--Hospital-green);
+    border-style: solid;
+    padding: 15px;
+}
+
+.Sign-up-button a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--Hospital-green);
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,141 @@
+:root{
+    /* colors */
+    --Very-light-pink: #C7C7C7;
+    --White: #FFFFFF;
+    --Text-input-field: #F7F7F7;
+    --Black: black;
+    --Hospital-green: #ACD9B2;
+    --Dark: #232830;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+
+.main-conteiner{
+    min-width: 500px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    justify-content:center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    
+}
+
+header{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    border-color: var(--Very-light-pink);
+}
+
+header .Menu{
+    padding: 10px;
+
+}
+
+header .Logo{
+    padding: 10px 60px;
+}
+
+
+header .Notificacion{
+    padding: 10px;
+    
+}
+
+.Buscador input[type='text']{
+    margin-top: 20px;
+    background-color: var(--Text-input-field);
+    border-radius: 10px;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.Scroll{
+    width: 280px;
+    display: flex;
+    overflow-x: scroll;
+    
+  
+}
+.Scroll::-webkit-scrollbar{display: none;}
+
+.Scroll a{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--Very-light-pink);
+    
+
+
+}
+a:focus{
+    border-radius: 5px;
+    border: 2px solid var(--Hospital-green);
+    color: var(--Hospital-green);
+}
+
+
+.Order{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Order label{
+    font-weight: bold;
+}
+
+.Order select{
+    border: none;
+}
+
+.Product-conteiner{
+    display: block;
+    width: 300px;
+}
+.Product{
+    display: inline-block;
+}
+
+.Item{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.Item img{
+    border-radius: 15px;
+    width: 120px;
+}
+
+.Add img{
+    width: 30px;
+}
+.Added img{
+    width: 35px;
+    box-shadow: 1px 1px 1px 1px var(--Very-light-pink);
+}
+
+.div {
+    display: inline-flex;
+
+}
+.Description {
+    padding-right: 20px;
+}
+.Description h5{
+    color: var(--Very-light-pink);
+    font-weight: normal;
+}

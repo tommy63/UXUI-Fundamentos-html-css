@@ -1,0 +1,153 @@
+:root{
+    /* colors */
+    --Very-light-pink: #C7C7C7;
+    --White: #FFFFFF;
+    --Text-input-field: #F7F7F7;
+    --Black: black;
+    --Hospital-green: #ACD9B2;
+    --Dark: #232830;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+
+.main-conteiner{
+    min-width: 500px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    justify-content:center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+}
+
+header{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    border-color: var(--Very-light-pink);
+
+}
+
+header .Menu{
+    margin: 10px;
+
+}
+
+header .Logo{
+    margin: 10px 60px;
+}
+
+
+header .Notificacion{
+    margin: 10px;
+    
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.Inputs-conteiner{
+    padding-top: 20px;
+    
+}
+
+.Name-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Name-conteiner label{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.Name-conteiner input[type='Name']{
+    background-color: var(--Text-input-field);
+    border-radius: 10px;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+.Email-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    
+    
+}
+
+.Email-conteiner label{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.Email-conteiner input[type='Email']{
+    background-color: var(--Text-input-field);
+    border-radius: 10px;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.Password-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.Password-conteiner label{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.Password-conteiner input[type='Password']{
+    background-color:var(--Text-input-field);
+    border-radius: 10px;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+}    
+
+.Create-button {
+    width: 100%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    background-color: var(--Hospital-green);
+    border-color: var(--White);
+    border-radius: 10px;
+    border-style: solid;
+    padding: 15px;
+}
+
+.Create-button a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--White);
+    text-align: center;
+    text-decoration: none;
+}
